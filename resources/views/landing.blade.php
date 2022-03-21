@@ -27,8 +27,53 @@
                 <h4>Watch Movie for Free</h4>
                 <h6>Watch everything you want for Free in 1 month.</h6>
             </div>
-            <div class="right-info"></div>
+            <div class="right-info">
+                <div class="right-text">
+                    <h1>1 M+</h1>
+                    <h6>Movies Available</h6>
+                </div>
+            </div>
+        </div>
+        <div class="item2-container">
+            <div class="top-item">
+                <h1>10 M+</h1>
+            </div>
+            <div class="bot-item">
+                <h6>User Registered</h6>
+            </div>
+        </div>
+        <div class="item3-container">
+            <div class="top-item">
+                <h1>Available on :</h1>
+            </div>
+            <div class="bot-item">
+                <h6>Playstore</h6>
+            </div>
+        </div>
+        <div class="item4-container">
+            <div class="bot-item">
+                <h6>App Store</h6>
+            </div>
         </div>
     </div>
+    <div class="service-title">
+        <h4>Our Service</h4>
+    </div>
+    <div class="services">
+        <div class="service-1">
+            <h4>STANDARD</h4>
+        </div>
+        <div class="service-2"></div>
+        <div class="service-3"></div>
+    </div>
+    <footer>
+        <div class="top-container">
+            <div class="top-item">
+                <img src="{{ url('/assets/eye.png') }}" alt="filme" id="header-logo">
+                <h4>filme</h4>
+            </div>
+        </div>
+        <h6>&copy; copyright filme 2022</h6>
+    </footer>
 </body>
 </html>
