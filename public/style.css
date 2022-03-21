@@ -460,6 +460,9 @@ footer h6{
   
 .left {
     left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
   
 .right {
@@ -473,4 +476,72 @@ footer h6{
     height: 95%;
     background-color: black;
     border-radius: 45px;
+}
+
+.form-section{
+    width: 539px;
+    height: 647px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.form-section h6 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.form-section #lemail{
+    margin-top: 40px;
+}
+
+
+.form-section #lpass{
+    margin-top: 40px;
+}
+
+.form-section #email{
+    width: 539px;
+    height: 50px;
+    border-radius: 28px;
+}
+
+.form-section #password{
+    width: 539px;
+    height: 50px;
+    border-radius: 28px;
+}
+
+.form-section .row-section{
+    width: 539px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section #login{
+    margin-top: 40px;
+    width: 539px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.75) 100%);
+}
+
+@media only screen and (max-width: 769px){
+    .right-container{
+        background-color: red;
+    }
 }

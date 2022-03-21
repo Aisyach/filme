@@ -12,7 +12,31 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="split left"></div>
+    <div class="split left">
+        <div class="form-section">
+            <h1>Welcome back</h1>
+            <h6>Welcome back! please enter your details</h6>
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="email" id="lemail">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                <div class="form-group">
+                    <label for="password" id="lpass">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="row-section">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                        <a href="">Forgot Password</a>
+                </div>
+                    <button type="submit" class="btn btn-primary" id="login">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <div class="split right">
         <div class="right-container"></div>
     </div>
