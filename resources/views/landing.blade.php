@@ -47,11 +47,13 @@
                 <h1>Available on :</h1>
             </div>
             <div class="bot-item">
+                <img src="{{ url('/assets/Playstore.png') }}" alt="playstore">
                 <h6>Playstore</h6>
             </div>
         </div>
         <div class="item4-container">
             <div class="bot-item">
+                <img src="{{ url('/assets/App Store.png') }}" alt="app store">
                 <h6>App Store</h6>
             </div>
         </div>
@@ -62,9 +64,73 @@
     <div class="services">
         <div class="service-1">
             <h4>STANDARD</h4>
+            <div class="service-item">
+                <h6>Ads-free</h6>
+                <img src="{{ url('/assets/cross.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>Download Movie</h6>
+                <img src="{{ url('/assets/cross.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>Customer Services</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>Unlimited Movies Watched</h6>
+                <img src="{{ url('/assets/cross.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>HD 720p Quality</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
         </div>
-        <div class="service-2"></div>
-        <div class="service-3"></div>
+        <div class="service-2">
+            <h4>PLATINUM</h4>
+            <div class="service-item">
+                <h6>Ads-free</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>Download Movie</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>Customer Services</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>Unlimited Movies Watched</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>HD 1080p Quality</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+        </div>
+        <div class="service-3">
+            <h4>GOLD</h4>
+            <div class="service-item">
+                <h6>Ads-free</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>Download Movie</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>Customer Services</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>24 Hrs Unlimited Movies Watched</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+            <div class="service-item">
+                <h6>UHD 4K Quality</h6>
+                <img src="{{ url('/assets/check.png') }}" alt="cross" id="status">
+            </div>
+        </div>
     </div>
     <footer>
         <div class="top-container">
