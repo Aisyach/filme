@@ -15,7 +15,7 @@
     <div class="header">
         <img src="{{ url('/assets/eye.png') }}" alt="filme" id="header-logo">
         <div class="btn-group">
-            <a href="" class="btn btn-light" id="login">Login</a>
+            <a href="/login" class="btn btn-light" id="login">Login</a>
             <a href="" class="btn btn-dark" id="signup">Sign Up</a>
         </div>
     </div>
